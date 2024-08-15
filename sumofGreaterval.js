@@ -1,0 +1,11 @@
+arr=[1,2,3,4,5]
+target_val=2
+sum=0;
+for(i=0;i<=arr.length;i++)
+{
+    if(arr[i]>target_val)
+    {
+        sum+=arr[i]
+    }
+}
+console.log("sum:",sum)
