@@ -1,9 +1,10 @@
-const vowels=['A','E','I','O','U']
-let string="Subasri"
+let str="SUbasri"
+let str1=str.trim();
+let string=str1.toLowerCase()
 let count=0
-for(let letter of string.toUpperCase()){
-     if(vowels.includes(letter)){
-         count+=1
-     }
+for(let i=0;i<string.length;i++){
+    if(string[i]=="a" || string[i]=="e"||string[i]=="i"||string[i]=="o"||string[i]=="u"){
+        count+=1
+    }
 }
 console.log(count)
